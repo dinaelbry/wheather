@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1><i class="fa-solid fa-cloud-sun text-light"></i> Weather Dashboard</h1>
+      <p>Real-time weather for any city </p>
+    </header>
+
+    <div class="search-bar">
+      <button class="btn btn-loc" id="locBtn" title="Use my location">
+        <i class="fa-solid fa-location-dot text-danger"></i>
+      </button>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search city… (e.g. Tokyo, Berlin)"
+      />
+      <button class="btn" id="searchBtn">Search</button>
+    </div>
+
+    <div class="quick-cities">
+      <span class="chip" data-city="New York">New York</span>
+      <span class="chip" data-city="London">London</span>
+      <span class="chip" data-city="Tokyo">Tokyo</span>
+      <span class="chip" data-city="Paris">Paris</span>
+      <span class="chip" data-city="Dubai">Dubai</span>
+      <span class="chip" data-city="Italy">Italy</span>
+    </div>
+
+    <div class="grid" id="grid"></div>
+    <div class="toast" id="toast"></div>
+
+
+    
+<footer>
+  <p>Developed with <i class="fa-solid fa-heart"></i> by <span>ENG. Dina Elbry</span></p>
+</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
