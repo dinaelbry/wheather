@@ -24,6 +24,11 @@ body {
   min-height: 100vh;
   padding: 10px 24px 16px 48px;
 }
+@media (max-width: 480px) {
+  body {
+    padding: 10px 24px;
+  }
+}
 /* header */
 header {
   text-align: center;
@@ -385,7 +390,6 @@ header p {
   text-align: right;
 }
 footer {
-
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   text-align: center;
   margin: 48px 0;
